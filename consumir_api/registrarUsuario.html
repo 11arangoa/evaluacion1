@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.11/dist/sweetalert2.min.css">
+     <title>Registrar Usuario</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="documento" type="number"class="validate">
+                  <label for="documento">documento</label>
+                </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s6">
+                      <input id="nombre" type="text" class="validate">
+                      <label for="nombre">nombre</label>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="nota1" type="number" min="0" step ="5.0"  class="validate">
+                      <label for="nota1">nota1</label>
+                    </div>
+                  </div>
+                
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="nota2" type="number" min="0" step ="5.0" class="validate">
+                      <label for="nota2">nota2</label>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="nota3" type="number" min="0" step ="5.0" class="validate">
+                      <label for="nota3">nota3</label>
+                    </div>
+                  </div>
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <input id="observaciones" type="text" class="validate">
+                        <label for="observaciones">observaciones</label>
+                      </div>
+                    </div>
+                  
+                  </div>
+
+
+                  <div class="row">
+                    <div class="input-field col s6">
+                            <!-- Dentro del archivo editar.html -->
+                            <button type="button" class="btn waves-effect waves-light" id="btnRegistrar"> Registrar</button>
+                            <a button type="button"  class="btn waves-effect waves-light"  href="listarDatos.html">ver los registros  </button></a>
+             
+                    </div>
+                  </div>
+                </form>
+              </div>
+            
+              <!-- Compiled and minified JavaScript -->
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+              <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.11/dist/sweetalert2.all.min.js"></script>   
+            
+              <script src="js/funciones.js"></script>
+            </body>
+            </html>
